@@ -20,6 +20,12 @@
             </v-list-tile>
             <v-list-tile avatar>
               <v-list-tile-content>
+                <v-list-tile-title>URL</v-list-tile-title>
+                <v-list-tile-sub-title>https://takuyahanada.github.io/qi-ri2/dist/index.html#/</v-list-tile-sub-title>
+              </v-list-tile-content>
+            </v-list-tile>
+            <v-list-tile avatar>
+              <v-list-tile-content>
                 <v-list-tile-title>開発者</v-list-tile-title>
                 <v-list-tile-sub-title>TakuyaHanada</v-list-tile-sub-title>
               </v-list-tile-content>
