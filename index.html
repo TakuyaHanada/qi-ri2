@@ -4,14 +4,25 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <meta name="apple-mobile-web-app-title" content="Qi-Ri2" />
-    <link rel="apple-touch-icon" href="./icons/icon.png" />
+    <link rel="apple-touch-icon" href="./static/icon.png" />
+
+    <link
+      rel="shortcut icon"
+      href="./static/favicon.ico"
+      type="image/vnd.microsoft.icon"
+    />
+    <link
+      rel="icon"
+      href="./static/favicon.ico"
+      type="image/vnd.microsoft.icon"
+    />
 
     <meta charset="utf-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"
     />
-    <title>Qi-Ri2</title>
+    <title>Qi-Ri2 | Wi-FiをQRコードで管理</title>
     <link
       href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons"
       rel="stylesheet"
@@ -23,9 +34,11 @@
 
     <script type="application/javascript">
       if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('./serviceworker.js').then(function() {
-          console.log('ServiceWorker Registered')
-        })
+        navigator.serviceWorker
+          .register('./service-worker.js')
+          .then(function() {
+            console.log('ServiceWorker Registered')
+          })
       }
     </script>
   </body>

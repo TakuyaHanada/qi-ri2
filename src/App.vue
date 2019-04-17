@@ -43,11 +43,6 @@ export default {
           path: '/new'
         },
         {
-          icon: 'system_update',
-          title: 'インストール方法',
-          path: '/install'
-        },
-        {
           icon: 'settings',
           title: '設定',
           path: '/settings'

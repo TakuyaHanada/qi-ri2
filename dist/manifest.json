@@ -3,7 +3,7 @@
   "short_name": "Qi-Ri2",
   "icons": [
     {
-      "src": "./icons/icon.png",
+      "src": "./static/icon.png",
       "sizes": "512x512",
       "type": "image/png"
     }
