@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Qi-Ri2" />
+    <link rel="apple-touch-icon" href="./icons/icon.png" />
+
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -15,5 +20,13 @@
   <body>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+
+    <script type="application/javascript">
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('./serviceworker.js').then(function() {
+          console.log('ServiceWorker Registered')
+        })
+      }
+    </script>
   </body>
 </html>

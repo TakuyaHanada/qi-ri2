@@ -1,10 +1,10 @@
-# qi-ri2
+# Qi-Ri2
 
-> A Vue.js project
+> Wi-Fi を QR コードで管理する Web アプリケーションです。（PWA にも対応）
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 npm install
 
