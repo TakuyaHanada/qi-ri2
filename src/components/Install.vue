@@ -12,8 +12,9 @@
                 <ol>
                   <li>以下のサイトにアクセス</li>
                   <a
-                    href="https://takuyahanada.github.io/qi-ri2/dist/index.html"
-                  >https://takuyahanada.github.io/qi-ri2/dist/index.html</a>
+                    href="https://takuyahanada.github.io/qi-ri2/dist/index.html#/"
+                    target="_blank"
+                  >https://takuyahanada.github.io/qi-ri2/dist/index.html#/</a>
                   <li class="pt-3">以下の動画のようにインストール</li>
                   <img class="install-img" src="../assets/IMG_3821.png" alt="iphone">
                 </ol>
